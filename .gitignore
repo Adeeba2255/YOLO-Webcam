@@ -1,0 +1,7 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+yolo11n.pt
+detection_screenshot.jpg
