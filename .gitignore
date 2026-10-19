@@ -1,7 +1,33 @@
+
+# Python virtual environments
 .venv/
 venv/
+
+# Python cache
 __pycache__/
 *.py[cod]
+
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
+
+# YOLO model weights
 yolo11n.pt
+
+# Detection output
 detection_screenshot.jpg
+
+# Next.js frontend
+node_modules/
+.next/
+out/
+
+# Build and cache files
+dist/
+build/
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
